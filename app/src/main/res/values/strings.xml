@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GoPhone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="titulo_login">Faça seu login</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="lbl_reset_senha">Esqueceu sua senha?</string>
+</resources>
