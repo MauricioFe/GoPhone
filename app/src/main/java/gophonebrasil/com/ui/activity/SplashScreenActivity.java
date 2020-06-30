@@ -29,7 +29,8 @@ public class SplashScreenActivity extends AppCompatActivity {
     }
 
     private void mostraLogin() {
-        Intent intent = new Intent();
+        Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+
         startActivity(intent);
         finish();
     }
