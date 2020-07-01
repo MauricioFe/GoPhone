@@ -11,7 +11,7 @@ public class Cliente {
     private String email;
     private String password;
     private String telefone;
-    private Date dataNascimento;
+    private String dataNascimento;
     private String sexo;
     private long imei;
     private String cep;
@@ -21,8 +21,8 @@ public class Cliente {
     private String cidade;
     private String estado;
     private int status;
-    private Timestamp created_at;
-    private Timestamp updated_at;
+    private String created_at;
+    private String updated_at;
     private int planos_id;
     private int celular_id;
     private String indicação;
@@ -78,11 +78,11 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    public Date getDataNascimento() {
+    public String getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(Date dataNascimento) {
+    public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
@@ -158,19 +158,19 @@ public class Cliente {
         this.status = status;
     }
 
-    public Timestamp getCreated_at() {
+    public String getCreated_at() {
         return created_at;
     }
 
-    public void setCreated_at(Timestamp created_at) {
+    public void setCreated_at(String created_at) {
         this.created_at = created_at;
     }
 
-    public Timestamp getUpdated_at() {
+    public String getUpdated_at() {
         return updated_at;
     }
 
-    public void setUpdated_at(Timestamp updated_at) {
+    public void setUpdated_at(String updated_at) {
         this.updated_at = updated_at;
     }
 
