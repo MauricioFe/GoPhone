@@ -6,10 +6,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 import gophonebrasil.com.R;
 import gophonebrasil.com.http.HttpService;
@@ -38,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... params) {
             String conteudo = HttpService.getDados(params[0]);
-            Log.i("API", "doInBackground: "+ conteudo);
             Log.i("API", "doInBackground: "+ conteudo);
             return conteudo;
         }
